@@ -56,7 +56,12 @@ class App extends Component {
           <h1>Baseball Scoreboard</h1>
         </header>
         <Display reset={this.resetHandler} BatterUp={this.state} />
-        <Dashboard />
+        <Dashboard 
+          ball={this.ballhandler}
+          strike={this.strikeHandler}
+          foul={this.foulHandler}
+          hit={this.hitHandler}
+        />
 
       </div>
     );
