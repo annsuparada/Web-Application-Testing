@@ -15,3 +15,16 @@
   color: white;
 }
 
+.display{
+  display: flex;
+  width: 70%;
+  margin: 5rem auto;
+  justify-content: space-evenly;
+}
+
+.dashboard{
+  display: flex;
+  width: 70%;
+  margin: auto;
+  justify-content: space-evenly;
+}
