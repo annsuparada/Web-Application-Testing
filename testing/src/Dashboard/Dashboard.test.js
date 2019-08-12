@@ -1,6 +1,6 @@
 import React from "react";
 import { render, fireEvent } from "@testing-library/react";
-// import "jest-dom/extend-expect";
+import '@testing-library/react/cleanup-after-each'
 import Dashboard from "./dashboard";
 
 
